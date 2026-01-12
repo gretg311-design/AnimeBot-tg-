@@ -1,0 +1,41 @@
+body {
+  margin:0; padding:0;
+  font-family:system-ui;
+  background:radial-gradient(circle at top,#1b2340,#060913 75%);
+  color:#fff;
+  min-height:100vh;
+}
+
+.topbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:12px 16px;
+  background:linear-gradient(180deg,#141c38,#0b1024);
+  box-shadow:0 6px 20px rgba(0,0,0,.6);
+  font-family:system-ui;
+  color:#fff;
+}
+
+.user .name{
+  font-weight:600;
+  font-size:15px;
+}
+
+.user .id{
+  font-size:11px;
+  opacity:.6;
+}
+
+.stats{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.sub{
+  padding:4px 8px;
+  border-radius:10px;
+  background:#2a3569;
+  font-size:12px;
+}
